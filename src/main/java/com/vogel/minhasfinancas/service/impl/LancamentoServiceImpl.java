@@ -89,7 +89,7 @@ public class LancamentoServiceImpl implements LancamentoService {
 		}
 		
 		if (lancamento.getTipo() == null) {
-			throw new RegraNegocioException("Informe um tipo de Lançamento");
+			throw new RegraNegocioException("Informe um tipo de Lançamento.");
 		}		
 		
 	}
